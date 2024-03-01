@@ -1,0 +1,116 @@
+body {
+background-image: url(Imagens/aprenda-a-organizar-uma-biblioteca-escolar-ideal-para-alunos-e-professores-740x495.png);
+/*Imagem de fundo*/
+background-repeat: no-repeat;
+/*Para a imagem de fundo não se repetir*/
+background-size: cover;
+/*Para a imagem de fundo ficar na página inteira*/
+}
+
+h1 {
+text-align: center;
+/*texo no centro*/
+color: #ffffff;
+/*cor do texto*/
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/*fonte*/
+}
+
+hr {
+width: 200px;
+/*largura da linha*/
+color: #ffffff;
+/*cor da linha*/
+margin-top: -20px;
+margin-bottom: 50px;
+/*margens da linha*/
+}
+
+.cube {
+    width: 350px;
+    height: 350px;
+    /*altura e largura da caixa*/
+    background-color: rgba(27, 38, 38, 0.599);
+    /*fundo da caixa*/
+    padding: 15px;
+    /*zona morta da caixa*/
+    margin: 100px auto;
+    /*margem da caixa*/
+    box-shadow: 5px 10px 15px rgb(0, 0, 0);
+    /*Sombra da caixa - 5px = X; 10px = Y; 15px = blur*/
+}
+
+form {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+form > input {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 20px;
+    border-radius: 10px;
+    border: 0px;
+    padding-left: 10px;
+}
+
+.senha{
+    margin-bottom: 12px;
+}
+
+.logar {
+    font-size: 20px;
+    width: 40%;
+    height: 35px;
+    border-radius: 4px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.logar:hover {
+    background-color: rgb(54, 81, 82);
+    color: #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+    /*Torna o cursor na forma de setinha*/
+    font-size: 20px;
+    width: 40%;
+    height: 35px;
+    border-radius: 4px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.cadastro {
+    font-size: 12px;
+    display: flex;
+    /*Deixa os itens próximos*/
+    align-items: center;
+    /*Alinhar os itens dentro da chave*/
+    justify-content: center;
+    /*justifica o contéudo da chave*/
+}
+
+.cadastro button {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 30px;
+    width: 80%;
+    height: 20px;
+    border: 0px;
+    border-radius: 4px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.cadastro button:hover {
+    background-color: rgb(54, 81, 82);
+    color: #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 30px;
+    width: 80%;
+    height: 20px;
+    border: 0px;
+    border-radius: 4px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
